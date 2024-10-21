@@ -6,7 +6,7 @@ Provide a config.yml file which lists your servers' url to be hit and basic conf
 
 Exmple config File..
 
-`
+```yml
 port: 8080
 servers:
   - http://127.0.0.1:8001
@@ -14,8 +14,7 @@ servers:
 
 max_connections: 10
 timeout: 10s
-
-`
+```
 
 Steps to run the project:
   - go build
